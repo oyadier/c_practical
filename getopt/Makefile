@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -Wall -Werror
 
 # List of object files
-OBJ = _getopt.o subtr.o add.o _struct.o persons.o
+OBJ = _getopt.o subtr.o add.o _struct.o persons.o _enum.o _date.o _bank_list.o create_bank.o
 
 # Default target
 all: operation
